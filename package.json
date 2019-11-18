@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir public"
+    "build": "parcel build src/index.html --out-dir public --no-source-maps"
   },
   "dependencies": {
     "microsoft-cognitiveservices-speech-sdk": "^1.8.0",
