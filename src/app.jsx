@@ -69,6 +69,7 @@ export default function App() {
   return (
     <React.Fragment>
       <GlobalStyle />
+      <h1>Bumblebee</h1>
       <Form onSubmit={handleSubmit} isRecording={isRecording}>
         <label>
           Azure Key
@@ -262,5 +263,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 10px;
   };
 `;
